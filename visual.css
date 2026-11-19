@@ -37,3 +37,5 @@ html{scroll-padding-top:96px}
 .testimonial-controls button{display:grid;place-items:center;width:48px;height:48px;min-height:0;padding:0;border-radius:50%}
 .testimonial-controls button svg{width:22px;height:22px}
 @media(max-width:600px){.testimonial-controls button{width:44px;height:44px;padding:0}}
+.hero h1{font-size:clamp(2.05rem,3.5vw,2.75rem);line-height:1.08;letter-spacing:-.035em}
+.eyebrow:before{display:none}
