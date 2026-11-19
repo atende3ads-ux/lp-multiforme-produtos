@@ -39,3 +39,8 @@ html{scroll-padding-top:96px}
 @media(max-width:600px){.testimonial-controls button{width:44px;height:44px;padding:0}}
 .hero h1{font-size:clamp(2.05rem,3.5vw,2.75rem);line-height:1.08;letter-spacing:-.035em}
 .eyebrow:before{display:none}
+.benefit{padding:22px 0 22px 64px}
+.benefit:before{display:none}
+.benefit-icon{position:absolute;left:0;top:20px;display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#0877f326;border:1px solid #58adff59;color:#8ec9ff}
+.benefit-icon svg{width:24px;height:24px}
+@media(max-width:520px){.benefit{padding-left:58px}.benefit-icon{width:42px;height:42px}}
